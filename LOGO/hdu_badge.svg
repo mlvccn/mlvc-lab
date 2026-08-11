@@ -1,0 +1,14 @@
+<svg width="360" height="120" viewBox="0 0 360 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" rx="28" fill="url(#bg)"/>
+  <rect x="8" y="8" width="344" height="104" rx="22" stroke="rgba(255,255,255,0.28)"/>
+  <circle cx="58" cy="60" r="28" fill="rgba(255,255,255,0.16)"/>
+  <path d="M45 48H51V57H65V48H71V72H65V63H51V72H45V48Z" fill="white"/>
+  <text x="98" y="50" fill="white" font-size="18" font-family="Arial, sans-serif" font-weight="700">HDU</text>
+  <text x="98" y="78" fill="rgba(255,255,255,0.82)" font-size="14" font-family="Arial, sans-serif">Hangzhou Dianzi University</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="360" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E587E"/>
+      <stop offset="1" stop-color="#6F97B8"/>
+    </linearGradient>
+  </defs>
+</svg>

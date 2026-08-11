@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>机器学习与视觉计算实验室 | MLVC-Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-redesign.css">
+</head>
+<body>
+  <nav class="nav" id="mainNav" data-component="navigation">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-brand" data-component="nav-brand"><img class="nav-brand-logo" src="LOGO/logo_mlvc.png" alt="MLVC"><span>MLVC-Lab</span></a>
+      <div class="nav-links">
+        <a class="nav-link" href="#about">实验室介绍</a>
+        <a class="nav-link" href="#faculty">导师团队</a>
+        <a class="nav-link" href="#research">研究方向</a>
+        <a class="nav-link" href="#students">学生成员</a>
+        <a class="nav-link" href="#publications">发表论文</a>
+        <a class="nav-link" href="#activities">团建活动</a>
+      </div>
+      <button class="nav-hamburger" id="navHamburger" aria-label="导航菜单" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="nav-mobile-menu" id="navMobileMenu">
+      <a class="nav-link" href="#about">实验室介绍</a><a class="nav-link" href="#faculty">导师团队</a><a class="nav-link" href="#research">研究方向</a><a class="nav-link" href="#students">学生成员</a><a class="nav-link" href="#publications">发表论文</a><a class="nav-link" href="#activities">团建活动</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero" data-component="hero">
+    <svg class="hero-bg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="rgba(255,255,255,0.35)" stroke-width="0.5" fill="none">
+        <line x1="120" y1="180" x2="340" y2="320"/><line x1="340" y1="320" x2="560" y2="240"/><line x1="560" y1="240" x2="780" y2="380"/><line x1="780" y1="380" x2="1000" y2="280"/><line x1="1000" y1="280" x2="1200" y2="420"/><line x1="200" y1="500" x2="420" y2="400"/><line x1="420" y1="400" x2="560" y2="240"/><line x1="420" y1="400" x2="640" y2="520"/><line x1="640" y1="520" x2="780" y2="380"/><line x1="640" y1="520" x2="860" y2="600"/><line x1="860" y1="600" x2="1000" y2="280"/><line x1="860" y1="600" x2="1100" y2="550"/><line x1="1100" y1="550" x2="1200" y2="420"/><line x1="100" y1="650" x2="200" y2="500"/><line x1="200" y1="500" x2="340" y2="320"/><line x1="1300" y1="200" x2="1200" y2="420"/>
+      </g>
+      <g fill="rgba(255,255,255,0.5)"><circle cx="120" cy="180" r="3"/><circle cx="340" cy="320" r="4"/><circle cx="560" cy="240" r="3.5"/><circle cx="780" cy="380" r="4.5"/><circle cx="1000" cy="280" r="3"/><circle cx="1200" cy="420" r="4"/><circle cx="200" cy="500" r="3"/><circle cx="420" cy="400" r="3.5"/><circle cx="640" cy="520" r="4"/><circle cx="860" cy="600" r="3"/><circle cx="1100" cy="550" r="3.5"/><circle cx="100" cy="650" r="2.5"/><circle cx="1300" cy="200" r="2.5"/></g>
+      <g fill="rgba(255,255,255,0.08)"><rect x="80" y="100" width="2" height="2"/><rect x="88" y="100" width="2" height="2"/><rect x="96" y="100" width="2" height="2"/><rect x="80" y="108" width="2" height="2"/><rect x="88" y="108" width="2" height="2"/><rect x="96" y="108" width="2" height="2"/><rect x="1280" y="700" width="2" height="2"/><rect x="1288" y="700" width="2" height="2"/><rect x="1296" y="700" width="2" height="2"/><rect x="1280" y="708" width="2" height="2"/><rect x="1288" y="708" width="2" height="2"/><rect x="1296" y="708" width="2" height="2"/></g>
+    </svg>
+    <div class="container hero-content">
+      <div class="hero-logos">
+        <div class="hero-logo-hdu">
+          <img class="hero-logo hero-logo-seal" src="LOGO/logo_hdu.png" alt="杭州电子科技大学">
+          <img class="hero-logo hero-logo-word" src="LOGO/hdu-word.png" alt="杭州电子科技大学">
+        </div>
+        <img class="hero-logo hero-logo-mlvc" src="LOGO/logo_mlvc.png" alt="MLVC 实验室">
+      </div>
+      <h1 class="hero-title">机器学习与视觉计算实验室<span class="hero-title-en">Machine Learning and Vision Computing Lab</span></h1>
+      <p class="hero-desc">杭州电子科技大学计算机学院，依托全省视觉物联融合技术重点实验室，近二十年深耕机器学习、视觉计算与数据挖掘领域。</p>
+      <a class="hero-scroll" href="#about">了解更多<svg class="hero-scroll-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
+    </div>
+  </section>
+
+  <main>
+    <section class="section" id="about" data-component="about">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">About</p><h2 class="section-title">实验室介绍</h2></div>
+        <div class="about-copy">
+          <p>机器学习与视觉计算实验室（Machine Learning and Vision Computing, MLVC-Lab）的前身为智能计算与数据挖掘实验室，迄今已有近 20 年积累。实验室隶属杭州电子科技大学计算机学院智能与软件技术研究所，依托全省视觉物联融合技术重点实验室开展科研工作。</p>
+          <p>实验室学术顾问包括国家杰青、万人领军、优青、海优等高层次人才队伍，学术骨干包括教授/博导 2 人、客座教授 2 人、讲师/硕导 1 人，在读博士生、硕士生 20 余名。</p>
+          <p>团队长期专注于机器学习、视觉计算、数据挖掘等领域的研究与开发工作，围绕智能视觉理解、多媒体内容分析与数据驱动建模等方向持续开展系统性研究。</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card"><div class="stat-value">~20</div><div class="stat-label">年研究积累</div></div>
+          <div class="stat-card"><div class="stat-value">5+</div><div class="stat-label">学术骨干</div></div>
+          <div class="stat-card"><div class="stat-value">20+</div><div class="stat-label">在读研究生</div></div>
+          <div class="stat-card"><div class="stat-value">6</div><div class="stat-label">研究方向</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="faculty" data-component="faculty">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Faculty</p><h2 class="section-title">导师团队</h2></div>
+        <div class="faculty-grid" data-component="faculty-grid">
+          <article class="faculty-card"><div class="faculty-head"><div class="faculty-avatar">李</div><div><h3 class="faculty-name">李平</h3><p class="faculty-role">教授 / 博导</p></div></div><p class="faculty-bio">杭州电子科技大学计算机学院教授、博士生导师，依托计算机视觉与智能分析相关平台开展研究，主要研究方向包括机器学习、视觉计算、数据挖掘与多媒体内容理解。</p><div class="faculty-actions"><a class="faculty-action-link" href="mailto:lpcs@hdu.edu.cn"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>lpcs@hdu.edu.cn</a><a class="faculty-action-link" href="https://faculty.hdu.edu.cn/jsjxy/lp/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>教师主页</a></div></article>
+          <article class="faculty-card"><div class="faculty-head"><div class="faculty-avatar">徐</div><div><h3 class="faculty-name">徐向华</h3><p class="faculty-role">教授 / 博导</p></div></div><p class="faculty-bio">杭州电子科技大学计算机学院教授、博士生导师，长期从事计算机视觉、模式识别、图像处理、云计算与大数据处理等方向研究，在视觉理解与智能分析相关领域持续开展科研工作。</p><div class="faculty-actions"><a class="faculty-action-link" href="mailto:xhxu@hdu.edu.cn"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>xhxu@hdu.edu.cn</a></div></article>
+          <article class="faculty-card"><div class="faculty-head"><div class="faculty-avatar">王</div><div><h3 class="faculty-name">王然</h3><p class="faculty-role">讲师 / 硕导</p></div></div><p class="faculty-bio">杭州电子科技大学计算机学院讲师、硕士生导师，浙江大学概率论与数理统计专业博士，主要研究方向为物联网、机器学习与深度学习。</p><div class="faculty-actions"><a class="faculty-action-link" href="mailto:wangran@hdu.edu.cn"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>wangran@hdu.edu.cn</a><a class="faculty-action-link" href="https://faculty.hdu.edu.cn/jsjxy/wr/main.htm" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>教师主页</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="research" data-component="research">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Research</p><h2 class="section-title">研究方向</h2></div>
+        <div class="research-overview" id="researchOverview">
+          <div class="research-layout">
+            <div class="research-group research-group--ml">
+              <div class="research-group-header"><h3 class="research-group-title">机器学习</h3><span class="research-group-en">Machine Learning</span></div>
+              <div class="research-group-bar"></div>
+              <div class="research-grid">
+                <button class="research-card" type="button" data-research-target="efficient"><div class="research-card-title">视觉模型压缩</div><div class="research-card-en">Efficient Visual Learning</div><p class="research-card-summary">面向视觉模型的轻量化与高效部署，在保持模型性能的同时降低计算和存储开销。</p><div class="research-card-tags"><span class="tag">知识蒸馏</span><span class="tag">网络剪枝</span><span class="tag">模型量化</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="trustworthy"><div class="research-card-title">视觉模型安全</div><div class="research-card-en">Trustworthy Visual AI</div><p class="research-card-summary">研究深度视觉模型的安全脆弱性，并提升模型在恶意攻击和复杂环境下的鲁棒性。</p><div class="research-card-tags"><span class="tag">对抗攻防</span><span class="tag">后门攻防</span><span class="tag">鲁棒学习</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="open-data"><div class="research-card-title">开放与数据高效学习</div><div class="research-card-en">Open &amp; Data-Efficient Learning</div><p class="research-card-summary">降低视觉学习对海量标注数据和固定类别空间的依赖，提升模型面对未知类别的泛化能力。</p><div class="research-card-tags"><span class="tag">数据集压缩</span><span class="tag">小样本</span><span class="tag">零样本</span><span class="tag">开放域学习</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+              </div>
+            </div>
+            <div class="research-group research-group--vc">
+              <div class="research-group-header"><h3 class="research-group-title">视觉计算</h3><span class="research-group-en">Visual Computing</span></div>
+              <div class="research-group-bar"></div>
+              <div class="research-grid">
+                <button class="research-card" type="button" data-research-target="video"><div class="research-card-title">视频理解与定位</div><div class="research-card-en">Video Understanding &amp; Grounding</div><p class="research-card-summary">研究视频中的人物行为、事件及其时空语义，包括动作识别与检测、视频描述，以及时序和时空定位。</p><div class="research-card-tags"><span class="tag">动作识别</span><span class="tag">动作检测</span><span class="tag">视频描述</span><span class="tag">时序/时空定位</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="3d"><div class="research-card-title">点云动作分析与分割</div><div class="research-card-en">Point Cloud Action Analysis &amp; Segmentation</div><p class="research-card-summary">研究动态点云中的人体行为建模，以及三维目标和场景的精细分割与理解。</p><div class="research-card-tags"><span class="tag">点云动作分析</span><span class="tag">点云动作识别</span><span class="tag">点云分割</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="multimodal"><div class="research-card-title">语义分割</div><div class="research-card-en">Video Segmentation &amp; Multimodal Perception</div><p class="research-card-summary">研究视频中的像素级目标理解，并融合 RGB、热红外、深度和自然语言信息，实现复杂场景下的精细视频分割。</p><div class="research-card-tags"><span class="tag">视频语义分割</span><span class="tag">RGB-T/D</span><span class="tag">参考语句视频分割</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="researchDetailContainer"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="students" data-component="students">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Members</p><h2 class="section-title">学生成员</h2></div>
+        <div class="tab-strip" role="tablist"><button class="tab-btn is-active" data-tab-group="students" data-tab-target="students-current">在校生</button><button class="tab-btn" data-tab-group="students" data-tab-target="students-graduates">毕业生</button></div>
+        <div class="tab-panel is-active" id="students-current" data-tab-group="students">
+          <div class="students-grid" id="currentStudentsGrid"></div>
+        </div>
+        <div class="tab-panel" id="students-graduates" data-tab-group="students" hidden>
+          <div class="graduate-groups" id="graduateGroups"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications" data-component="publications">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Publications</p><h2 class="section-title">成果展示</h2></div>
+        <div class="tab-strip" role="tablist"><button class="tab-btn is-active" data-tab-group="results" data-tab-target="papers-panel">发表论文</button><button class="tab-btn" data-tab-group="results" data-tab-target="patents-panel">发明专利</button></div>
+        <div class="tab-panel is-active" id="papers-panel" data-tab-group="results">
+          <div class="paper-stack" id="paperStack"></div>
+          <h3 class="paper-other-header">其他论文</h3>
+          <ul class="compact-list" id="otherPapersList"></ul>
+        </div>
+        <div class="tab-panel" id="patents-panel" data-tab-group="results" hidden>
+          <h3 class="paper-other-header">发明专利</h3>
+          <ul class="compact-list patent-list" id="patentsList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="activities" data-component="activities">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Life</p><h2 class="section-title">团建活动</h2></div>
+        <div class="carousel" id="activityCarousel">
+          <div class="carousel-viewport"><div class="carousel-track" id="carouselTrack"></div></div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="carouselPrev" aria-label="上一张"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg></button>
+            <div class="carousel-dots" id="carouselDots"></div>
+            <button class="carousel-btn" id="carouselNext" aria-label="下一张"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-component="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-name">杭州电子科技大学计算机学院机器学习与视觉计算实验室</p>
+          <p class="footer-name-en">Machine Learning and Vision Computing, MLVC-Lab</p>
+          <div class="footer-info">
+            <p>地址：浙江省杭州市钱塘区白杨街道 2 号大街杭州电子科技大学 3 教 501</p>
+            <p>邮编：310018</p>
+          </div>
+        </div>
+        <div class="footer-qr">
+          <img src="fig/公众号二维码.jpg" alt="实验室公众号二维码">
+          <p class="footer-qr-label">实验室公众号</p>
+        </div>
+      </div>
+      <div class="footer-bottom">MLVC-Lab &copy; Hangzhou Dianzi University</div>
+    </div>
+  </footer>
+
+  <script src="app-redesign.js"></script>
+</body>
+</html>
