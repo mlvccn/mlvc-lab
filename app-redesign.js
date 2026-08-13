@@ -133,9 +133,9 @@ const researchDetails = {
 const currentStudents = [
   { name:'刘钧宇', year:'2024 级硕士生', email:'ljycs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EJunyu_Liu9', research:'时空动作检测' },
   { name:'田绍启', year:'2024 级硕士生', email:'tsq@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EShaoqi_Tian1', research:'点云动作分析' },
-  { name:'尚立杰', year:'2024 级硕士生', email:'sljcs@hud.edu.cn', link:'https://openreview.net/profile?id=%7ELijie_Shang1', research:'多模态大模型对抗攻防' },
+  { name:'尚立杰', year:'2024 级硕士生', email:'sljcs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7ELijie_Shang1', research:'多模态大模型对抗攻防' },
   { name:'李逸凡', year:'2024 级硕士生', email:'lyfcs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7ELi_Yifan3', research:'视觉网络量化与数据集蒸馏' },
-  { name:'郭晓晨', year:'2024 级硕士生', email:'242050288@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EXiaochen_Guo2', research:'人物交互检测' },
+  { name:'郭晓晨', year:'2024 级硕士生', email:'242050288@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EXiaochen_Guo2', research:'人-物交互检测' },
   { name:'陈宇安', year:'2024 级硕士生', email:'cya@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EYuAn_Chen15', research:'视频定位' },
   { name:'周伟超', year:'2024 级硕士生', email:'zwc@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EWeichao_Zhou2', research:'参考图像分割' },
   { name:'洪文锦', year:'2025 级硕士生', email:'hwjcs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EWenjin_Hong1', research:'视觉对抗攻防' },
@@ -227,7 +227,7 @@ const activities = [
 
 const academicActivities = [
   { img: 'fig/学术活动/第二十一届中国机器学习及其应用研讨会（MLA2024）.jpeg', title: '第二十一届中国机器学习及其应用研讨会', date: '2023', alt: 'MLA 2024 研讨会' },
-  { img: 'fig/学术活动/MLA2024.jpeg', title: '第二十二届中国机器学习及其应用研讨会', date: '2024', alt: 'MLA 2024 学术活动' },
+  { img: 'fig/学术活动/MLA2024.jpeg', title: '第二十二届中国机器学习及其应用研讨会', date: '2024', alt: 'MLA2024学术交流' },
   { img: 'fig/学术活动/第二十二届中国机器学习及其应用研讨会（MLA2024）.jpeg', title: '第二十二届中国机器学习及其应用研讨会', date: '2024', alt: 'MLA 2024 研讨会' },
   { img: 'fig/学术活动/第二十三届中国机器学习及其应用研讨会（MLA2025）.jpeg', title: '第二十三届中国机器学习及其应用研讨会', date: '2025', alt: 'MLA 2025 研讨会' }
 ];
