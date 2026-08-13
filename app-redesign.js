@@ -134,7 +134,7 @@ const currentStudents = [
   { name:'刘钧宇', year:'2024 级硕士生', email:'ljycs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EJunyu_Liu9', research:'时空动作检测' },
   { name:'田绍启', year:'2024 级硕士生', email:'tsq@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EShaoqi_Tian1', research:'点云动作分析' },
   { name:'尚立杰', year:'2024 级硕士生', email:'sljcs@hud.edu.cn', link:'https://openreview.net/profile?id=%7ELijie_Shang1', research:'多模态大模型对抗攻防' },
-  { name:'李逸凡', year:'2024 级硕士生', email:'lyfcs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7ELi_Yifan3', research:'网络量化与数据集蒸馏' },
+  { name:'李逸凡', year:'2024 级硕士生', email:'lyfcs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7ELi_Yifan3', research:'视觉网络量化与数据集蒸馏' },
   { name:'郭晓晨', year:'2024 级硕士生', email:'242050288@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EXiaochen_Guo2', research:'人物交互检测' },
   { name:'陈宇安', year:'2024 级硕士生', email:'cya@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EYuAn_Chen15', research:'视频定位' },
   { name:'周伟超', year:'2024 级硕士生', email:'zwc@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EWeichao_Zhou2', research:'参考图像分割' },
@@ -142,7 +142,7 @@ const currentStudents = [
   { name:'夏韦', year:'2025 级硕士生', email:'xw@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EWei_Xia19', research:'视觉后门攻防' },
   { name:'门嘉辰', year:'2025 级硕士生', email:'mjc@hdu.edu.cn', link:'https://openreview.net/profile?id=~Jiachen_Men1', research:'时空动作检测' },
   { name:'林芸', year:'2025 级硕士生', email:'lycs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EYun_Lin5', research:'点云语义分割' },
-  { name:'季新叶', year:'2025 级硕士生', email:'jxycs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EXinye_Ji1', research:'视觉模型的剪枝与量化' },
+  { name:'季新叶', year:'2025 级硕士生', email:'jxycs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EXinye_Ji1', research:'视觉模型剪枝与量化' },
   { name:'张真玮', year:'2025 级硕士生', email:'zzwcs@hdu.edu.cn', link:'https://openreview.net/profile?id=%7EZhenwei_Zhang6', research:'视觉数据集压缩' },
   { name:'梁石根', year:'2026 级硕士生', email:null, link:null, research:'时空动作检测' },
   { name:'胡新俊', year:'2026 级硕士生', email:null, link:null, research:'视觉对抗攻防' },
@@ -150,11 +150,11 @@ const currentStudents = [
 ];
 
 const graduates = [
-  { year:'2026届', members:[{n:'平晨昊',d:'阿里'},{n:'林凡罡',d:'快手'},{n:'潘杰',d:'新华三'},{n:'何凌风',d:'华为'},{n:'唐晨',d:'华为'},{n:'庞博',d:'零跑'},{n:'杨若凡',d:'美团'}] },
+  { year:'2026届', members:[{n:'平晨昊',d:'阿里'},{n:'林凡罡',d:'快手'},{n:'何凌风',d:'华为'},{n:'唐晨',d:'华为'},{n:'庞博',d:'零跑'},{n:'杨若凡',d:'美团'},{n:'潘杰',d:'新华三'}] },
   { year:'2025届', members:[{n:'叶浩宇',d:'腾讯'},{n:'洪宇',d:'腾讯'},{n:'周东',d:'蚂蚁'},{n:'倪家楠',d:'华为'},{n:'谢宇豪',d:'快手'},{n:'秦雨雨',d:'人民银行软发'}] },
   { year:'2024届', members:[{n:'孙语韬',d:'读博深造'},{n:'黄志强',d:'武警士官学校'},{n:'叶兴超',d:'华为'},{n:'陈家俊',d:'大华'},{n:'王涛',d:'浙江公共安全研究院'},{n:'杨钧彦',d:'嘉兴金融管理局'}] },
-  { year:'2023届', members:[{n:'黄一乘',d:'阿里巴巴'},{n:'支世腾',d:'猿辅导'},{n:'陶泓宇',d:'快手'},{n:'邱磊磊',d:'华为'},{n:'张陈翰',d:'公务员选调'}] },
-  { year:'2022届', members:[{n:'史文武',d:'网易'},{n:'曹佳晨',d:'网易'},{n:'袁炜祺',d:'海康威视'},{n:'张宇',d:'同花顺'},{n:'朱佳超',d:'蔚来汽车'}] },
+  { year:'2023届', members:[{n:'黄一乘',d:'阿里'},{n:'支世腾',d:'猿辅导'},{n:'陶泓宇',d:'快手'},{n:'邱磊磊',d:'华为'},{n:'张陈翰',d:'公务员选调'}] },
+  { year:'2022届', members:[{n:'史文武',d:'网易'},{n:'曹佳晨',d:'网易'},{n:'袁炜祺',d:'海康'},{n:'张宇',d:'同花顺'},{n:'朱佳超',d:'蔚来汽车'}] },
   { year:'2021届', members:[{n:'赵国潘',d:'网易'},{n:'梁颖',d:'美团'},{n:'薛亮',d:'滴滴'},{n:'胡杰',d:'滴滴'},{n:'刘永攀',d:'哔哩哔哩'},{n:'冉现源',d:'有赞'},{n:'张盼',d:'浙商银行软开'}] }
 ];
 
@@ -216,13 +216,13 @@ const patents = [
 ];
 
 const activities = [
-  { img: 'fig/团建活动/20240324春游.jpeg', title: '春游团建', date: '2024.03.24', alt: 'MLVC 春游团建合影' },
+  { img: 'fig/团建活动/20240324春游.jpeg', title: '宝石山春游', date: '2024.03.24', alt: 'MLVC 春游团建合影' },
   { img: 'fig/团建活动/20241201钱塘江边毅行.jpeg', title: '钱塘江边毅行', date: '2024.12.01', alt: 'MLVC 钱塘江边毅行合影' },
   { img: 'fig/团建活动/20250323九溪徒步.jpeg', title: '九溪徒步', date: '2025.03.23', alt: 'MLVC 九溪徒步合影' },
-  { img: 'fig/团建活动/20251026北高峰团建.jpeg', title: '北高峰团建', date: '2025.10.26', alt: 'MLVC 北高峰团建合影' },
+  { img: 'fig/团建活动/20251026北高峰团建.jpeg', title: '北高峰爬山', date: '2025.10.26', alt: 'MLVC 北高峰团建合影' },
   { img: 'fig/团建活动/20251123消防主题公园团建.jpeg', title: '消防主题公园团建', date: '2025.11.23', alt: 'MLVC 消防主题公园团建合影' },
-  { img: 'fig/团建活动/20260202新年团建.jpeg', title: '新年团建', date: '2026.02.02', alt: 'MLVC 新年团建合影' },
-  { img: 'fig/团建活动/20260426钱塘江团建.jpeg', title: '钱塘江团建', date: '2026.04.26', alt: 'MLVC 钱塘江团建合影' }
+  { img: 'fig/团建活动/20260202新年团建.jpeg', title: '新年团聚', date: '2026.02.02', alt: 'MLVC 新年团建合影' },
+  { img: 'fig/团建活动/20260426钱塘江团建.jpeg', title: '钱塘江野餐', date: '2026.04.26', alt: 'MLVC 钱塘江团建合影' }
 ];
 
 const academicActivities = [
