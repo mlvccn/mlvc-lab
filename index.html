@@ -1,226 +1,185 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>机器学习与视觉计算实验室 | MACHINE LEARNING AND VISION COMPUTING</title>
-    <meta
-      name="description"
-      content="杭州电子科技大学计算机学院机器学习与视觉计算实验室主页，包含实验室介绍、导师团队、学生成员、发表论文与团建活动。"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="masthead">
-      <div class="container masthead-inner">
-        <div class="brand-bar" aria-label="实验室标识">
-          <img class="brand-logo brand-logo-hdu" src="LOGO/logo_hdu.png" alt="杭州电子科技大学标识" />
-          <img class="brand-logo brand-logo-mlvc" src="LOGO/logo_mlvc.png" alt="MLVC 实验室标识" />
-        </div>
-        <div class="title-group">
-          <h1>
-            <span class="title-line">机器学习与视觉计算实验室</span>
-            <span class="title-line title-line-en">MACHINE LEARNING AND VISION COMPUTING</span>
-          </h1>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>机器学习与视觉计算实验室 | MLVC-Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-redesign.css">
+</head>
+<body>
+  <nav class="nav" id="mainNav" data-component="navigation">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-brand" data-component="nav-brand"><img class="nav-brand-logo nav-brand-logo--hdu" src="LOGO/logo_hdu.png" alt="杭州电子科技大学"><img class="nav-brand-logo" src="LOGO/logo_mlvc.png" alt="MLVC"><div class="nav-brand-text"><span class="nav-brand-name">MLVC-Lab</span><span class="nav-brand-sub">机器学习与视觉计算实验室</span></div></a>
+      <div class="nav-links">
+        <a class="nav-link" href="#hero">实验室介绍</a>
+        <a class="nav-link" href="#faculty">导师团队</a>
+        <a class="nav-link" href="#research">研究方向</a>
+        <a class="nav-link" href="#students">学生成员</a>
+        <a class="nav-link" href="#publications">发表论文</a>
+        <a class="nav-link" href="#academic">学术活动</a>
+        <a class="nav-link" href="#activities">团建活动</a>
       </div>
+      <button class="nav-hamburger" id="navHamburger" aria-label="导航菜单" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="nav-mobile-menu" id="navMobileMenu">
+      <a class="nav-link" href="#hero">实验室介绍</a><a class="nav-link" href="#faculty">导师团队</a><a class="nav-link" href="#research">研究方向</a><a class="nav-link" href="#students">学生成员</a><a class="nav-link" href="#publications">发表论文</a><a class="nav-link" href="#academic">学术活动</a><a class="nav-link" href="#activities">团建活动</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero" data-component="hero">
+    <svg class="hero-bg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="rgba(255,255,255,0.35)" stroke-width="0.5" fill="none">
+        <line x1="120" y1="180" x2="340" y2="320"/><line x1="340" y1="320" x2="560" y2="240"/><line x1="560" y1="240" x2="780" y2="380"/><line x1="780" y1="380" x2="1000" y2="280"/><line x1="1000" y1="280" x2="1200" y2="420"/><line x1="200" y1="500" x2="420" y2="400"/><line x1="420" y1="400" x2="560" y2="240"/><line x1="420" y1="400" x2="640" y2="520"/><line x1="640" y1="520" x2="780" y2="380"/><line x1="640" y1="520" x2="860" y2="600"/><line x1="860" y1="600" x2="1000" y2="280"/><line x1="860" y1="600" x2="1100" y2="550"/><line x1="1100" y1="550" x2="1200" y2="420"/><line x1="100" y1="650" x2="200" y2="500"/><line x1="200" y1="500" x2="340" y2="320"/><line x1="1300" y1="200" x2="1200" y2="420"/>
+      </g>
+      <g fill="rgba(255,255,255,0.5)"><circle cx="120" cy="180" r="3"/><circle cx="340" cy="320" r="4"/><circle cx="560" cy="240" r="3.5"/><circle cx="780" cy="380" r="4.5"/><circle cx="1000" cy="280" r="3"/><circle cx="1200" cy="420" r="4"/><circle cx="200" cy="500" r="3"/><circle cx="420" cy="400" r="3.5"/><circle cx="640" cy="520" r="4"/><circle cx="860" cy="600" r="3"/><circle cx="1100" cy="550" r="3.5"/><circle cx="100" cy="650" r="2.5"/><circle cx="1300" cy="200" r="2.5"/></g>
+      <g fill="rgba(255,255,255,0.08)"><rect x="80" y="100" width="2" height="2"/><rect x="88" y="100" width="2" height="2"/><rect x="96" y="100" width="2" height="2"/><rect x="80" y="108" width="2" height="2"/><rect x="88" y="108" width="2" height="2"/><rect x="96" y="108" width="2" height="2"/><rect x="1280" y="700" width="2" height="2"/><rect x="1288" y="700" width="2" height="2"/><rect x="1296" y="700" width="2" height="2"/><rect x="1280" y="708" width="2" height="2"/><rect x="1288" y="708" width="2" height="2"/><rect x="1296" y="708" width="2" height="2"/></g>
+    </svg>
+    <div class="container hero-content">
+      <h1 class="hero-title">机器学习与视觉计算实验室<span class="hero-title-en">Machine Learning and Vision Computing Laboratory</span></h1>
+    </div>
+    <div class="hero-about">
       <div class="container">
-        <nav class="page-nav" aria-label="页面导航">
-          <a href="#about">实验室介绍</a>
-          <a href="#faculty">导师团队</a>
-          <a href="#students">学生成员</a>
-          <a href="#publications">发表论文</a>
-          <a href="#activities">团建活动</a>
-        </nav>
+        <div class="section-header"><p class="section-subtitle section-subtitle--light">About</p><h2 class="section-title section-title--light">实验室介绍</h2></div>
+        <div class="about-copy about-copy--light">
+          <p>机器学习与视觉计算实验室（<em>Machine Learning and Vision Computing Laboratory</em>, MLVC-Lab）的前身为智能计算与数据挖掘实验室（迄今近20年），隶属杭州电子科技大学计算机学院智能与软件技术研究所，依托全省视觉物联融合技术重点实验室（与浙大、大华联合共建）。</p>
+          <p>学术顾问包括国家杰青/万人领军/优青/海优等高层次人才队伍，学术骨干包括教授/博导2人，客座教授2人，讲师/硕导1人，在读博士生、硕士生20余名。</p>
+          <p>团队长期专注机器学习、视觉计算、数据挖掘等领域的研究和开发工作。</p>
+        </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <main class="container page-content">
-      <section id="about" class="content-section">
-        <h2>实验室介绍</h2>
-        <div class="about-copy">
-          <p>
-            机器学习与视觉计算研究组（Machine Learning and Vision Computing, MLVC-Group）隶属智能计算与数据挖掘实验室（ICDM-Lab）和杭州电子科技大学计算机学院，依托于全省视觉物联融合技术重点实验室，是面向智能视觉理解与数据驱动学习的重要研究团队。
-          </p>
-          <p>
-            实验室拥有教授/博导 2 人，客座教授 2 人，讲师/博士 1 人，在读博士生、硕士生 20 余名，科研团队长期专注于机器学习、视觉计算、数据挖掘等领域的研究和开发工作。
-          </p>
-          <p>
-            团队强调以问题为导向的科研训练模式，鼓励学生在文献阅读、实验复现、模型实现、论文撰写与组会交流中形成完整的研究能力闭环。
-          </p>
-        </div>
-      </section>
-
-      <section id="faculty" class="content-section">
-        <h2>导师团队</h2>
-        <div class="faculty-grid">
-          <article class="faculty-card">
-            <div class="faculty-head">
-              <div class="faculty-avatar">徐</div>
-              <div>
-                <h3>徐向华</h3>
-                <p class="faculty-role">教授 / 博导</p>
-              </div>
-            </div>
-            <p class="faculty-meta">
-              <a href="mailto:xhxu@hdu.edu.cn">xhxu@hdu.edu.cn</a>
-            </p>
-            <p class="faculty-bio">
-              杭州电子科技大学计算机学院教授、博士生导师，长期从事计算机视觉、模式识别、图像处理、云计算与大数据处理等方向研究，在视觉理解与智能分析相关领域持续开展科研工作。
-            </p>
-            <p class="faculty-link">
-              <a href="http://lianpp.com/hdu/smu_faculty/jsjxy/xxh/main.htm" target="_blank" rel="noreferrer">教师主页</a>
-            </p>
-          </article>
-
-          <article class="faculty-card">
-            <div class="faculty-head">
-              <div class="faculty-avatar">李</div>
-              <div>
-                <h3>李平</h3>
-                <p class="faculty-role">教授 / 博导</p>
-              </div>
-            </div>
-            <p class="faculty-meta">
-              <a href="mailto:lpcs@hdu.edu.cn">lpcs@hdu.edu.cn</a>
-            </p>
-            <p class="faculty-bio">
-              杭州电子科技大学计算机学院教授、博士生导师，依托计算机视觉与智能分析相关平台开展研究，主要研究方向包括机器学习、视觉计算、数据挖掘与多媒体内容理解。
-            </p>
-            <p class="faculty-link">
-              <a href="https://faculty.hdu.edu.cn/jsjxy/lp/" target="_blank" rel="noreferrer">教师主页</a>
-            </p>
-          </article>
-
-          <article class="faculty-card">
-            <div class="faculty-head">
-              <div class="faculty-avatar">王</div>
-              <div>
-                <h3>王然</h3>
-                <p class="faculty-role">讲师 / 硕导</p>
-              </div>
-            </div>
-            <p class="faculty-meta">
-              <a href="mailto:wangran@hdu.edu.cn">wangran@hdu.edu.cn</a>
-            </p>
-            <p class="faculty-bio">
-              杭州电子科技大学计算机学院讲师、硕士生导师，浙江大学概率论与数理统计专业博士，主要研究方向为物联网、机器学习与深度学习。
-            </p>
-            <p class="faculty-link">
-              <a href="https://faculty.hdu.edu.cn/jsjxy/wr/main.htm" target="_blank" rel="noreferrer">教师主页</a>
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="students" class="content-section">
-        <h2>学生成员</h2>
-        <div class="students-grid">
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EJunyu_Liu9" target="_blank" rel="noreferrer">刘钧宇</a></h3><p>2024 级硕士生</p><p class="student-email"><a href="mailto:ljycs@hdu.edu.cn">ljycs@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EShaoqi_Tian1" target="_blank" rel="noreferrer">田绍启</a></h3><p>2024 级硕士生</p><p class="student-email"><a href="mailto:tsq@hdu.edu.cn">tsq@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7ELijie_Shang1" target="_blank" rel="noreferrer">尚立杰</a></h3><p>2024 级硕士生</p><p class="student-email"><a href="mailto:sljcs@hud.edu.cn">sljcs@hud.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7ELi_Yifan3" target="_blank" rel="noreferrer">李逸凡</a></h3><p>2024 级硕士生</p><p class="student-email"><a href="mailto:lyfcs@hdu.edu.cn">lyfcs@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EXiaochen_Guo2" target="_blank" rel="noreferrer">郭晓晨</a></h3><p>2024 级硕士生</p><p class="student-email"><a href="mailto:242050288@hdu.edu.cn">242050288@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EYuAn_Chen15" target="_blank" rel="noreferrer">陈宇安</a></h3><p>2024 级硕士生</p><p class="student-email"><a href="mailto:cya@hdu.edu.cn">cya@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EWeichao_Zhou2" target="_blank" rel="noreferrer">周伟超</a></h3><p>2024 级硕士生</p><p class="student-email"><a href="mailto:zwc@hdu.edu.cn">zwc@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EWenjin_Hong1" target="_blank" rel="noreferrer">洪文锦</a></h3><p>2025 级硕士生</p><p class="student-email"><a href="mailto:hwjcs@hdu.edu.cn">hwjcs@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EWei_Xia19" target="_blank" rel="noreferrer">夏韦</a></h3><p>2025 级硕士生</p><p class="student-email"><a href="mailto:xw@hdu.edu.cn">xw@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=~Jiachen_Men1" target="_blank" rel="noreferrer">门嘉辰</a></h3><p>2025 级硕士生</p><p class="student-email"><a href="mailto:mjc@hdu.edu.cn">mjc@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EYun_Lin5" target="_blank" rel="noreferrer">林芸</a></h3><p>2025 级硕士生</p><p class="student-email"><a href="mailto:lycs@hdu.edu.cn">lycs@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EXinye_Ji1" target="_blank" rel="noreferrer">季新叶</a></h3><p>2025 级硕士生</p><p class="student-email"><a href="mailto:jxycs@hdu.edu.cn">jxycs@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3><a class="student-name" href="https://openreview.net/profile?id=%7EZhenwei_Zhang6" target="_blank" rel="noreferrer">张真玮</a></h3><p>2025 级硕士生</p><p class="student-email"><a href="mailto:zzwcs@hdu.edu.cn">zzwcs@hdu.edu.cn</a></p></article>
-          <article class="student-card"><h3>梁石根</h3><p>2026 级硕士生</p><p class="student-email">邮箱待补充</p></article>
-          <article class="student-card"><h3>胡新俊</h3><p>2026 级硕士生</p><p class="student-email">邮箱待补充</p></article>
-          <article class="student-card"><h3>陈世军</h3><p>2026 级硕士生</p><p class="student-email">邮箱待补充</p></article>
-        </div>
-      </section>
-
-      <section id="publications" class="content-section">
-        <h2>发表论文</h2>
-        <div class="publication-grid">
-          <article class="paper-card">
-            <img src="fig/paper_framework/Adaptive saliency based contextual metric learning for few-shot open-set recognition. Pattern Recognition.png" alt="Adaptive saliency framework" />
-            <div class="paper-body">
-              <p class="paper-venue">PR（2026）</p>
-              <h3>Adaptive saliency based contextual metric learning for few-shot open-set recognition.</h3>
-              <p>
-                面向少样本开放集识别，引入自适应显著性与上下文度量学习框架，提升已知类判别与未知类识别能力。
-              </p>
-              <div class="paper-links">
-                <a href="https://www.sciencedirect.com/science/article/pii/S0031320326000592" target="_blank" rel="noreferrer">Paper</a>
-                <a href="https://github.com/mlvccn/ASCM_FewshotOpenset" target="_blank" rel="noreferrer">Code</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <img src="fig/paper_framework/Sample-level adaptive knowledge distillation for action recognition..png" alt="SAKD framework" />
-            <div class="paper-body">
-              <p class="paper-venue">ACM MM（2025）</p>
-              <h3>Sample-level adaptive knowledge distillation for action recognition.</h3>
-              <p>
-                针对动作识别任务设计样本级自适应知识蒸馏机制，以更有效地传递教师网络的判别信息。
-              </p>
-              <div class="paper-links">
-                <a href="https://dl.acm.org/doi/epdf/10.1145/3746027.3755514" target="_blank" rel="noreferrer">Paper</a>
-                <a href="https://github.com/mlvccn/SAKD_ActionRec" target="_blank" rel="noreferrer">Code</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <img src="fig/paper_framework/Temporal consistency constrained transferable adversarial attacks with background mixup for action recognition.png" alt="BMTC framework" />
-            <div class="paper-body">
-              <p class="paper-venue">IJCAI（2025）</p>
-              <h3>Temporal consistency constrained transferable adversarial attacks with background mixup for action recognition.</h3>
-              <p>
-                融合时序一致性约束与背景混合策略，增强对动作识别模型的可迁移对抗攻击能力。
-              </p>
-              <div class="paper-links">
-                <a href="https://www.ijcai.org/proceedings/2025/0158.pdf" target="_blank" rel="noreferrer">Paper</a>
-                <a href="https://github.com/mlvccn/BMTC_TransferAttackVid" target="_blank" rel="noreferrer">Code</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="paper-card">
-            <img src="fig/paper_framework/Triple-View Knowledge Distillation for Semi-Supervised Semantic Segmentation.png" alt="TriKD framework" />
-            <div class="paper-body">
-              <p class="paper-venue">TMM（2025）</p>
-              <h3>Triple-view knowledge distillation for semi-supervised semantic segmentation.</h3>
-              <p>
-                通过三视角知识蒸馏缓解半监督语义分割中的标注稀缺问题，提升模型的泛化与稳健性。
-              </p>
-              <div class="paper-links">
-                <a href="https://ieeexplore.ieee.org/document/11275880" target="_blank" rel="noreferrer">Paper</a>
-                <a href="https://ieeexplore.ieee.org/document/11275880" target="_blank" rel="noreferrer">Code</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="activities" class="content-section">
-        <h2>团建活动</h2>
-        <div class="activity-grid">
-          <figure class="activity-card">
-            <img src="fig/20260202新年团建.jpeg" alt="MLVC 新年团建合影" />
-            <figcaption>2026.02.02 新年团建</figcaption>
-          </figure>
-          <figure class="activity-card">
-            <img src="fig/20260426钱塘江团建.jpeg" alt="MLVC 钱塘江团建合影" />
-            <figcaption>2026.04.26 钱塘江团建</figcaption>
-          </figure>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
+  <main>
+    <section class="section section--alt" id="faculty" data-component="faculty">
       <div class="container">
-        <p>杭州电子科技大学计算机学院 · Machine Learning and Vision Computing</p>
+        <div class="section-header"><p class="section-subtitle">Faculty</p><h2 class="section-title">导师团队</h2></div>
+        <div class="faculty-grid" data-component="faculty-grid">
+          <article class="faculty-card"><div class="faculty-head"><div class="faculty-avatar">李</div><div><h3 class="faculty-name">李平</h3><p class="faculty-role">教授 / 博导</p></div></div><p class="faculty-bio">杭州电子科技大学计算机学院教授、博士生导师，依托计算机视觉与智能分析相关平台开展研究，主要研究方向包括机器学习、视觉计算、数据挖掘与多媒体内容理解。</p><div class="faculty-actions"><a class="faculty-action-link" href="mailto:lpcs@hdu.edu.cn"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>lpcs@hdu.edu.cn</a><a class="faculty-action-link" href="https://faculty.hdu.edu.cn/jsjxy/lp/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>教师主页</a></div></article>
+          <article class="faculty-card"><div class="faculty-head"><div class="faculty-avatar">徐</div><div><h3 class="faculty-name">徐向华</h3><p class="faculty-role">教授 / 博导</p></div></div><p class="faculty-bio">杭州电子科技大学计算机学院教授、博士生导师，长期从事计算机视觉、模式识别、图像处理、云计算与大数据处理等方向研究，在视觉理解与智能分析相关领域持续开展科研工作。</p></article>
+          <article class="faculty-card"><div class="faculty-head"><div class="faculty-avatar">王</div><div><h3 class="faculty-name">王然</h3><p class="faculty-role">讲师 / 硕导</p></div></div><p class="faculty-bio">杭州电子科技大学计算机学院讲师、硕士生导师，浙江大学概率论与数理统计专业博士，主要研究方向为物联网、机器学习与深度学习。</p><div class="faculty-actions"><a class="faculty-action-link" href="mailto:wangran@hdu.edu.cn"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>wangran@hdu.edu.cn</a><a class="faculty-action-link" href="https://faculty.hdu.edu.cn/jsjxy/wr/main.htm" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>教师主页</a></div></article>
+        </div>
       </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <section class="section" id="research" data-component="research">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Research</p><h2 class="section-title">研究方向</h2></div>
+        <div class="research-overview" id="researchOverview">
+          <div class="research-layout">
+            <div class="research-group research-group--ml">
+              <div class="research-group-header"><h3 class="research-group-title">机器学习</h3><span class="research-group-en">Machine Learning</span></div>
+              <div class="research-group-bar"></div>
+              <div class="research-grid">
+                <button class="research-card" type="button" data-research-target="efficient"><div class="research-card-title">视觉模型压缩</div><div class="research-card-en">Efficient Visual Learning</div><p class="research-card-summary">面向视觉模型的轻量化与高效部署，在保持模型性能的同时降低计算和存储开销。</p><div class="research-card-tags"><span class="tag">知识蒸馏</span><span class="tag">网络剪枝</span><span class="tag">模型量化</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="trustworthy"><div class="research-card-title">视觉模型安全</div><div class="research-card-en">Trustworthy Visual AI</div><p class="research-card-summary">研究深度视觉模型的安全脆弱性，并提升模型在恶意攻击和复杂环境下的鲁棒性。</p><div class="research-card-tags"><span class="tag">对抗攻防</span><span class="tag">后门攻防</span><span class="tag">鲁棒学习</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="open-data"><div class="research-card-title">开放与数据集压缩</div><div class="research-card-en">Open-set &amp; Dataset Compression</div><p class="research-card-summary">降低视觉学习对海量标注数据和固定类别空间的依赖，提升模型面对未知类别的泛化能力。</p><div class="research-card-tags"><span class="tag">数据集压缩</span><span class="tag">小样本</span><span class="tag">零样本</span><span class="tag">开放域学习</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+              </div>
+            </div>
+            <div class="research-group research-group--vc">
+              <div class="research-group-header"><h3 class="research-group-title">视觉计算</h3><span class="research-group-en">Visual Computing</span></div>
+              <div class="research-group-bar"></div>
+              <div class="research-grid">
+                <button class="research-card" type="button" data-research-target="video"><div class="research-card-title">视频理解</div><div class="research-card-en">Video Understanding</div><p class="research-card-summary">面向连续视频中的动作与事件理解，研究动作识别、动作检测以及基于时序和时空信息的视频定位。</p><div class="research-card-tags"><span class="tag">动作识别</span><span class="tag">动作检测</span><span class="tag">视频定位</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="3d"><div class="research-card-title">点云动作分析与分割</div><div class="research-card-en">Point Cloud Action Analysis &amp; Segmentation</div><p class="research-card-summary">利用动态点云建模人体运动和行为，并研究三维目标、部件与场景的精细点云分割。</p><div class="research-card-tags"><span class="tag">点云动作分析</span><span class="tag">点云分割</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                <button class="research-card" type="button" data-research-target="multimodal"><div class="research-card-title">语义分割</div><div class="research-card-en">Semantic Segmentation</div><p class="research-card-summary">研究图像与视频中的像素级语义理解，融合 RGB、红外、深度等信息，并结合参考图像完成目标分割。</p><div class="research-card-tags"><span class="tag">RGB-T/D</span><span class="tag">参考图像分割</span></div><svg class="research-card-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="researchDetailContainer"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="students" data-component="students">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Members</p><h2 class="section-title">学生成员</h2></div>
+        <div class="tab-strip" role="tablist"><button class="tab-btn is-active" data-tab-group="students" data-tab-target="students-current">在校生</button><button class="tab-btn" data-tab-group="students" data-tab-target="students-graduates">毕业生（部分）</button></div>
+        <div class="tab-panel is-active" id="students-current" data-tab-group="students">
+          <div class="students-grid" id="currentStudentsGrid"></div>
+        </div>
+        <div class="tab-panel" id="students-graduates" data-tab-group="students" hidden>
+          <div class="graduate-groups" id="graduateGroups"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications" data-component="publications">
+      <div class="container">
+        <div class="section-header"><p class="section-subtitle">Publications</p><h2 class="section-title">成果展示</h2></div>
+        <div class="tab-strip" role="tablist"><button class="tab-btn is-active" data-tab-group="results" data-tab-target="papers-panel">发表论文</button><button class="tab-btn" data-tab-group="results" data-tab-target="patents-panel">发明专利</button></div>
+        <div class="tab-panel is-active" id="papers-panel" data-tab-group="results">
+          <div class="paper-stack" id="paperStack"></div>
+          <h3 class="paper-other-header">其他论文</h3>
+          <ul class="compact-list" id="otherPapersList"></ul>
+        </div>
+        <div class="tab-panel" id="patents-panel" data-tab-group="results" hidden>
+          <h3 class="paper-other-header">发明专利</h3>
+          <div class="patent-list" id="patentsList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="academic" data-component="academic">
+      <div class="container">
+        <div class="events-grid">
+          <div class="event-panel">
+            <div class="section-header"><p class="section-subtitle">Events</p><h2 class="section-title">学术活动</h2></div>
+            <div class="carousel" id="academicCarousel">
+              <div class="carousel-viewport"><div class="carousel-track" id="academicCarouselTrack"></div></div>
+              <div class="carousel-controls">
+                <button class="carousel-btn" id="academicCarouselPrev" aria-label="上一张"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg></button>
+                <div class="carousel-dots" id="academicCarouselDots"></div>
+                <button class="carousel-btn" id="academicCarouselNext" aria-label="下一张"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <div class="event-panel" id="activities" data-component="activities">
+            <div class="section-header"><p class="section-subtitle">Life</p><h2 class="section-title">团建活动</h2></div>
+            <div class="carousel" id="activityCarousel">
+              <div class="carousel-viewport"><div class="carousel-track" id="carouselTrack"></div></div>
+              <div class="carousel-controls">
+                <button class="carousel-btn" id="carouselPrev" aria-label="上一张"><svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg></button>
+                <div class="carousel-dots" id="carouselDots"></div>
+                <button class="carousel-btn" id="carouselNext" aria-label="下一张"><svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-component="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-name">杭州电子科技大学——机器学习与视觉计算实验室</p>
+          <p class="footer-name-en">Machine Learning and Vision Computing Laboratory, MLVC-Lab</p>
+          <div class="footer-info">
+            <p>地址：浙江省杭州市钱塘区白杨街道 2 号大街杭州电子科技大学 3 教 501</p>
+            <p>邮编：310018</p>
+          </div>
+        </div>
+        <div class="footer-qr-group">
+          <div class="footer-qr">
+            <img src="fig/公众号二维码.jpg" alt="实验室公众号二维码">
+            <p class="footer-qr-label">实验室公众号</p>
+          </div>
+          <div class="footer-qr">
+            <img src="fig/github二维码.png" alt="实验室 GitHub 二维码">
+            <p class="footer-qr-label">实验室 GitHub</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">Machine Learning and Vision Computing Laboratory · MLVC-Lab &copy; Hangzhou Dianzi University</div>
+    </div>
+  </footer>
+
+  <script src="app-redesign.js"></script>
+</body>
 </html>
